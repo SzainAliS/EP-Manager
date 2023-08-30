@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { ShoppinglistComponent } from './shopping/shoppinglist/shoppinglist.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ShoppingModule } from './shopping/shoppinglist/shopping.module';
+import { NavbarComponent } from './navbar/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
     
   ],
   imports: [
